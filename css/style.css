@@ -169,3 +169,12 @@ a:hover {
 	padding: 10px;
 	font-size:16px;
 }
+
+.card-stc-header {
+
+}
+
+.card-stc-paragraph {
+	display: inline-block;
+	min-height: 200px;
+}
