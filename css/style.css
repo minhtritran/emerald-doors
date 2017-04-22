@@ -2,11 +2,6 @@
 	color: #212121;
 }
 
-.title-block {
-	height: 200px;
-	position: relative;
-}
-
 .title-block-pattern {
 	position: absolute;
 	top: 0;
@@ -24,25 +19,8 @@
 	background-color: #2196F3;
 }
 
-.logo {
-	padding: 10px;
-	height: 200px;
-	position: absolute;
-	left: 0px;
-	top: 0px;
-}
-
 .title-block-container {
 	position:relative;
-}
-
-.title-block-content {
-	padding: 10px;
-	position: absolute;
-	left: 200px;
-	top: 20px;
-	width: 350px;
-	color: white;
 }
 
 .title-block-nav {
@@ -83,21 +61,6 @@
 	background-color: #F3FAFF;
 }
 
-.title-block-side {
-	padding: 10px;
-	position: absolute;
-	right: 0px;
-	top: 0px;
-	height: 200px;
-	text-align: right;
-}
-
-.title-block-side > div {
-	padding-top: 2px;
-	padding-bottom: 2px;
-	color: white;
-}
-
 .title-slanted-background {
 	position: absolute;
 	min-width: 380px;
@@ -135,29 +98,6 @@ a:hover {
 .alt-style-link:hover {
     color: #a1cf6e;
     text-decoration: none;
-}
-
-.nav-custom > li > a {
-	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
-	border-radius: 0;
-}
-
-
-.nav-custom > li > a:link, 
-.nav-custom > li > a:visited,
-.nav-custom > li > a:hover {
-	color: white;
-}
-
-.nav-custom > li > a:hover,
-.nav-custom > li > a:focus {
-	background-color: #8BC34A;
-}
-
-
-.nav-custom > li.dropdown.open > a {
-	background-color: #8BC34A;
 }
 
 .card a:hover {

@@ -1,0 +1,86 @@
+.title-block {
+	height: 200px;
+	position: relative;
+	margin-top: 5px;
+}
+
+.logo {
+	height: 200px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.title-block-content {
+	padding: 10px;
+	position: absolute;
+	left: 200px;
+	width: 450px;
+	font-size: 85px;
+	font-weight: 700;
+	color: black;
+	line-height: 80px;
+	margin-top: 18px;
+}
+
+.title-block-side {
+	padding: 10px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	height: 196px;
+	text-align: left;
+	border-radius: 2px;
+	box-shadow: 0px 2px 2px rgba(34, 25, 25, 0.4);
+	width: 360px;
+	background-image: url("../images/halftone.png");
+	background-repeat: repeat;
+}
+
+.title-block-side > div {
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.title-black-bar {
+	height: 12px;
+	background-color: black;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 8px;
+}
+
+.title-menu > .dropdown.open > a {
+	border-bottom: 5px solid black;
+}
+
+.title-menu {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.title-menu-item {
+	flex: 1 0 auto;
+	text-align: center;
+}
+
+.title-menu-item > a {
+	font-size: 25px;
+	border-bottom: 5px solid #EEE;
+	color: black;
+	height: 54px;
+	display: block;
+	line-height: 50px;
+}
+
+.title-menu-item > a:link, 
+.title-menu-item > a:visited,
+.title-menu-item > a:hover {
+	color: black;
+}
+
+.title-menu-item > a:hover,
+.title-menu-item > a:focus {
+	border-bottom: 5px solid black;
+	color: #649130;
+}
