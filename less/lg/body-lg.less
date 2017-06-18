@@ -1,5 +1,9 @@
-.body {
-	color: #212121;
+body {
+	font-family: @body-font-family;
+}
+
+h3 {
+	font-family: @header-font-family;
 }
 
 .title-block-pattern {
@@ -53,6 +57,15 @@
 	padding: 5px;
 	font-size: 16px;
 	text-align: center;
+	&-header {
+		font-weight: bold;
+		font-size: 18px;
+		font-family: @header-font-family;
+		text-transform: capitalize;
+	}
+	&-subtext {
+		text-transform: lowercase;
+	}
 }
 
 .contact-block {
@@ -84,24 +97,15 @@
 }
 
 a:link, a:visited {
-	color: #0c83e4;
+	color: @highlight-color;
 }
 
 a:hover {
-    color: #2ea1ff;
+    color: lighten(@highlight-color, 12%);
     text-decoration: none;
 }
 
-.alt-style-link:link, .alt-style-link:visited {
-	color: #8BC34A;
-}
-
-.alt-style-link:hover {
-    color: #a1cf6e;
-    text-decoration: none;
-}
-
-.card a:hover {
+a.card:hover {
 	background-color: #F5F5F5;
 	display:block;
 }
