@@ -2,8 +2,14 @@ body {
 	font-family: @body-font-family;
 }
 
-h3 {
+h1, h3 {
 	font-family: @header-font-family;
+}
+
+h3 {
+	display: inline-block;
+	font-weight: 700;
+	border-bottom: 7px lighten(@highlight-color, 35%) solid;
 }
 
 .title-block-pattern {
