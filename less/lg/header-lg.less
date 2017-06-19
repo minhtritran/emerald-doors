@@ -67,6 +67,14 @@
 	border-bottom: 5px solid black;
 }
 
+.title-menu .dropdown-menu li a {
+	border-left: 5px solid white;
+}
+
+.title-menu .dropdown-menu li a:hover {
+	border-left: 5px solid darken(@highlight-color, 10%);
+}
+
 .title-menu {
 	display: flex;
 	flex-flow: row nowrap;
@@ -94,8 +102,7 @@
 	color: black;
 }
 
-.title-menu-item > a:hover,
-.title-menu-item > a:focus {
-	border-bottom: 5px solid black;
+.title-menu-item > a:hover {
+	border-bottom: 5px solid darken(@highlight-color, 10%);
 	color: lighten(@highlight-color, 12%);
 }
