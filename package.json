@@ -5,7 +5,8 @@
   "dependencies": {},
   "devDependencies": {
     "ncp": "^2.0.0",
-    "ssi": "^0.3.0"
+    "ssi": "^0.3.0",
+    "ssihttpserver": "^0.2.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
