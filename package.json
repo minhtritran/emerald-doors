@@ -1,0 +1,23 @@
+{
+  "name": "emerald-doors",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {},
+  "devDependencies": {
+    "ncp": "^2.0.0",
+    "ssi": "^0.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minhtritran/emerald-doors.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minhtritran/emerald-doors/issues"
+  },
+  "homepage": "https://github.com/minhtritran/emerald-doors#readme"
+}
