@@ -1,1 +1,0 @@
-reduce-image --source-path images/source --dest-path images --max-height=1000 --max-width=1000 --force-png-to-jpg --verbose

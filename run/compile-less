@@ -1,1 +1,0 @@
-lessc --clean-css --source-map less/style.less css/style.min.css

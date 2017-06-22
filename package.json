@@ -9,7 +9,10 @@
     "ssihttpserver": "^0.2.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run compile-less && node build.js",
+    "compile-less": "lessc --clean-css --source-map less/style.less css/style.min.css",
+    "start-server": "cd build; python3 -m http.server &",
+    "optimize-images": "reduce-image --source-path images/source --dest-path images --max-height=1000 --max-width=1000 --force-png-to-jpg --verbose"
   },
   "repository": {
     "type": "git",

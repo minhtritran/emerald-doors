@@ -2,14 +2,26 @@ body {
 	font-family: @body-font-family;
 }
 
-h1, h3 {
+h1, h2, h3 {
 	font-family: @header-font-family;
+}
+
+h2 {
+	display: inline-block;
+	font-size: 60px;
+	text-transform: uppercase;
+	background-color: lighten(@highlight-color, 45%);
+	padding: 8px 8px 0 8px;
 }
 
 h3 {
 	display: inline-block;
 	font-weight: 700;
 	border-bottom: 7px lighten(@highlight-color, 35%) solid;
+}
+
+p {
+	font-size: 16px;
 }
 
 .title-block-pattern {
