@@ -15,7 +15,7 @@
     "build": "npm run compile-less && node build.js",
     "compile-less": "lessc --clean-css --source-map less/style.less css/style.min.css",
     "start-server": "http-server ./build &",
-    "optimize-images": "reduce-image --source-path images/reduce-image-playground/source --dest-path images/reduce-image-playground --max-height=1000 --max-width=1000 --force-png-to-jpg --verbose"
+    "optimize-images": "reduce-image --source-path source-images/reduce-image-playground/source --dest-path source-images/reduce-image-playground/destination --max-height=400 --max-width=400 --recursive --verbose"
   },
   "repository": {
     "type": "git",
