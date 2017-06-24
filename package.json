@@ -4,15 +4,18 @@
   "description": "",
   "dependencies": {},
   "devDependencies": {
+    "http-server": "^0.10.0",
+    "less": "^2.7.2",
+    "less-plugin-clean-css": "^1.5.1",
     "ncp": "^2.0.0",
-    "ssi": "^0.3.0",
-    "ssihttpserver": "^0.2.1"
+    "reduce-image": "0.0.3",
+    "ssi": "^0.3.0"
   },
   "scripts": {
     "build": "npm run compile-less && node build.js",
     "compile-less": "lessc --clean-css --source-map less/style.less css/style.min.css",
-    "start-server": "cd build; python3 -m http.server &",
-    "optimize-images": "reduce-image --source-path images/source --dest-path images --max-height=1000 --max-width=1000 --force-png-to-jpg --verbose"
+    "start-server": "http-server ./build &",
+    "optimize-images": "reduce-image --source-path images/reduce-image-playground/source --dest-path images/reduce-image-playground --max-height=1000 --max-width=1000 --force-png-to-jpg --verbose"
   },
   "repository": {
     "type": "git",
