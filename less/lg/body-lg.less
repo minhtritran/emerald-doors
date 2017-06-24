@@ -1,6 +1,14 @@
+@footer-height: 60px;
+
+html {
+	height: 100%;
+}
 body {
 	font-family: @body-font-family;
 	font-size: 16px;
+	min-height: 100%;
+	position: relative;
+	padding-bottom: @footer-height + 60px;
 }
 
 h1, h2, h3 {
@@ -169,4 +177,38 @@ a.card:hover {
 	width: 400px;
 	height:4px;
 	background-color: #eee;
+}
+
+.footer {
+	background-color: #eee;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: @footer-height;
+	text-align: center;
+	padding: 15px;
+	.yelp-icon-link {
+		color: #333;
+		&:hover {
+			color: #d32323;
+		}
+	}
+	.facebook-icon-link {
+		color: #333;
+		&:hover {
+			color: #3b5998;
+		}
+	}
+	i {
+		padding: 0px 2px;
+	}
+	div {
+		display: inline-block;
+		position: relative;
+		bottom: 4px;
+		padding: 0px 5px;
+		font-family: @header-font-family;
+	}
+
 }
